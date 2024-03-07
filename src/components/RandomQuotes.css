@@ -1,0 +1,59 @@
+.quote-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 25px 0%;
+    -webkit-box-shadow: 8px 8px 9px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 8px 9px -9px rgba(0,0,0,0.75);
+    box-shadow: 8px 8px 9px -9px rgba(0,0,0,0.75);
+}
+
+.quote {
+    padding: 0.75rem;
+}
+
+.quote-text {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.quote-author {
+    text-align: center;
+    font-style: italic;
+}
+
+.quote-icon {
+    position: absolute;
+    font-size: 3rem;
+    color: #D3AB9E;
+}
+
+.quote-icon-left {
+    top: 1rem;
+    left: 1rem;
+}
+
+.quote-icon-right {
+    bottom: 1rem;
+    right: 1rem;
+}
+
+@media  only screen and (max-width: 400px) {
+    .quote-container {
+        width: auto;
+    }
+
+    .quote-text {
+        font-size: 1.2rem;
+    }
+
+    .quote-icon {
+        font-size: 2rem;
+    }
+}

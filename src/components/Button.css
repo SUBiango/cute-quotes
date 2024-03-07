@@ -1,0 +1,16 @@
+.btn {
+    margin: 1rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: 0;
+    border: 2px solid #D3AB9E;
+    font-family: inherit;
+    transition: all .5s;
+}
+
+.btn:hover {
+    background-color: #D3AB9E;
+    color: #fff;
+}
